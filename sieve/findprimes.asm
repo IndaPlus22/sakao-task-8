@@ -1,6 +1,6 @@
 .data
 
-primes:		.space  1001               						# reserves a block of 2 (sizeof(short)) * 168(number of primes up to 1000) bytes in application memory
+primes:		.space  1001               						# reserves a block of 1001 bytes in application memory for 1000 bools and 1 end char
 dumb_msg:	.asciiz "number must be between 1 <n < 1001\n"
 
 ### Executable Code Section ###
